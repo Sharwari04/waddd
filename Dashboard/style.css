@@ -1,0 +1,102 @@
+{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+body{
+    min: height 100vh;
+}
+.btn{
+    background: blueviolet;
+    color:bisque;
+    padding:5px 10px;
+    text-align:center;
+
+
+}
+.btn:hover{
+    background: bisque;
+    color:blueviolet;
+    border:blueviolet;
+    padding:2px 8px;
+
+
+
+}
+.side-menu{
+    position: fixed;
+    background-color: blueviolet;
+    width: 30vh;
+    min-height: 100vh;
+    display: flexbox;
+    flex-direction: column;
+}
+.side-menu .brand-name{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: bisque;
+}
+.side-menu li{
+    font-size: 20px;
+    padding: 10px;
+    display: flex; 
+    color:bisque ;
+}
+.side-menu li:hover{
+    color: blueviolet;
+    background-color: bisque;
+}
+.side-menu li img{
+    width: 20px;
+    height: 20px;
+}
+
+.container{
+    position: absolute;
+    right: 0;
+    width: 80vw;
+    height: 100vh;
+    background: #f1f1f1;
+}
+
+.container.header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 80vw;
+    height: 12vh;
+    background: bisque;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+}
+
+.container .header .nav {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container .header .nav .user{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container .header .nav .user img{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container .{
+
+}

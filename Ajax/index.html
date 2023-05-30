@@ -1,0 +1,418 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>AJIO</title>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet"
+href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+ <script
+src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.slim.min.js"></
+script>
+ <script
+src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></
+script>
+ <script
+src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.j
+s"></script>
+</head>
+<body>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+ <!-- Brand/logo -->
+ <a class="navbar-brand" href="#">
+ <img src="AJIO.jpg" alt="logo" style="width:40px;">
+ </a>
+
+ <!-- Links -->
+ <ul class="navbar-nav">
+ <li class="nav-item">
+ <a class="nav-link" href="#">MENS</a>
+ </li>
+ <li class="nav-item">
+ <a class="nav-link" href="#">WOMENS</a>
+ </li>
+ <li class="nav-item">
+ <a class="nav-link" href="#">KIDS</a>
+ </li>
+ <li class="nav-item">
+ <a class="nav-link" href="#">HOME AND KITCHEN</a>
+ </li>
+
+ </ul>
+ <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+ <form class="form-inline" action="/action_page.php">
+ <input class="form-control mr-sm-2" type="text" placeholder=" Ajio
+Search">
+ <button class="btn btn-success" type="submit"> Search</button>
+ </form>
+
+ </nav>
+</nav>
+<div class="container-fluid">
+ <h3>AJIO / AJIO LUXE</h3>
+ <p>Welcome to Ajio</p>
+</div>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {
+ margin: 0;
+ font-family: "Lato", sans-serif;
+}
+.sidebar {
+ margin: 0;
+ padding: 0;
+ width: 200px;
+ background-color: #f1f1f1;
+ position: fixed;
+ height: 100%;
+ overflow: auto;
+}
+.sidebar a {
+ display: block;
+ color: black;
+ padding: 16px;
+ text-decoration: none;
+}
+.sidebar a.active {
+ background-color: #04AA6D;
+ color: white;
+}
+.sidebar a:hover:not(.active) {
+ background-color: #555;
+ color: white;
+}
+div.content {
+ margin-left: 200px;
+ padding: 1px 16px;
+ height: 1000px;
+}
+@media screen and (max-width: 700px) {
+ .sidebar {
+ width: 100%;
+ height: auto;
+ position: relative;
+ }
+ .sidebar a {float: left;}
+ div.content {margin-left: 0;}
+}
+@media screen and (max-width: 400px) {
+ .sidebar a {
+ text-align: center;
+ float: none;
+ }
+}
+</style>
+</head>
+<body>
+
+</div>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+ font-family: "Lato", sans-serif;
+}
+.sidebar {
+ height: 100%;
+ width: 0;
+ position: fixed;
+ z-index: 1;
+ top: 0;
+ left: 0;
+ background-color: #111;
+ overflow-x: hidden;
+ transition: 0.5s;
+ padding-top: 60px;
+}
+.sidebar a {
+ padding: 8px 8px 8px 32px;
+ text-decoration: none;
+ font-size: 25px;
+ color: #818181;
+ display: block;
+ transition: 0.3s;
+}
+.sidebar a:hover {
+ color: #f1f1f1;
+}
+.sidebar .closebtn {
+ position: absolute;
+ top: 0;
+ right: 25px;
+ font-size: 36px;
+ margin-left: 50px;
+}
+.openbtn {
+ font-size: 20px;
+ cursor: pointer;
+ background-color: #46b82c;
+ color: white;
+ padding: 10px 15px;
+ border: none;
+}
+.openbtn:hover {
+ background-color: #444444;
+}
+#main {
+ transition: margin-left .5s;
+ padding: 16px;
+}
+/* On smaller screens, where height is less than 450px, change the style of the
+sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+ .sidebar {padding-top: 15px;}
+ .sidebar a {font-size: 18px;}
+}
+</style><body>
+ <div id="mySidebar" class="sidebar">
+ <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+ <a href="C:\Users\Lenovo\Desktop\WAD 3333\data.html">Register</a>
+ <a href="data.html">Register</a>
+ <a href="#">Price</a>
+ <a href="#">Brands</a>
+ <a href="#">Occasion</a>
+ <a href="#">Colors</a>
+ <a href="#">Size & Fit</a>
+ </div>
+
+ <div id="main">
+ <button class="openbtn" onclick="openNav()"> Refine By</button> ☰
+
+ </div>
+
+ <script>
+ function openNav() {
+ document.getElementById("mySidebar").style.width = "250px";
+ document.getElementById("main").style.marginLeft = "250px";
+ }
+
+ function closeNav() {
+ document.getElementById("mySidebar").style.width = "0";
+ document.getElementById("main").style.marginLeft= "0";
+ }
+ </script>
+</head>
+</body>
+<div class="content">
+ <style>
+ .card {
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+ max-width: 200px;
+ margin: 50px;
+ text-align: center;
+ font-family: arial;
+
+ }
+
+ .price {
+ color: grey;
+ font-size: 22px;
+ }
+
+ .card button {
+ border: none;
+ outline: 0;
+ padding: 12px;
+ color: white;
+ background-color:#24c23c;
+ text-align: center;
+ cursor: pointer;
+ width: 100%;
+ font-size: 18px;
+ }
+ a {
+ text-decoration: none;
+ font-size: 25px;
+ color: black;
+}
+
+
+ .card button:hover {
+ opacity: 0.7;
+ }
+ </style>
+ </head>
+ <body>
+
+
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <style>
+ * {
+ box-sizing: border-box;
+ }
+
+ body {
+ font-family: Arial, Helvetica, sans-serif;
+ }
+
+ /* Float four columns side by side */
+ .column {
+ float: left;
+ width: 25%;
+ padding: 0 10px;
+ }
+
+ /* Remove extra left and right margins, due to padding */
+ .row {margin: 0 -5px;}
+
+ /* Clear floats after the columns */
+ .row:after {
+ content: "";
+ display: table;
+ clear: both;
+ }
+
+ /* Responsive columns */
+ @media screen and (max-width: 600px) {
+ .column {
+ width: 100%;
+ display: block;
+ margin-bottom: 20px;
+ }
+ }
+
+ /* Style the counter cards */
+ .card {
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+ padding: 16px;
+ text-align: center;
+ background-color: #f1f1f1;
+ }
+ .card h1 {
+ padding: 16px;
+ font-size: 20px;
+ }
+ </style>
+ </head>
+ <body>
+
+ <h1 style="text-align:center">All Stars Sale is Live!!</h1>
+ <h1 style="text-align:center">Buy your favorite products at jaw-dropping
+discounts!
+ </h1>
+ <!-- Product Card--->
+ <div class="row">
+ <div class="column">
+ <div class="card">
+ <img src="denimm.jpg" alt="Denim Jeans" style="border-image-width:
+80%">
+ <h1>Jogger Pant </h1>
+ <p class="price"> 325</p> ₹
+
+ <p><button>Add to Cart</button></p>
+ </div>
+ </div>
+ <div class="column">
+ <div class="card">
+ <img src="model.jog.webp" alt="Dennislingo premium attire"
+style="border-image-width: 80%">
+ <h1>Classic Shirt</h1>
+ <p class="price"> 425</p> ₹
+
+ <p><button>Add to Cart</button></p>
+ </div>
+ </div>
+
+ <div class="column">
+ <div class="card">
+ <img src="blue.jpg" alt="Pannkh" style="border-image-width: 80%">
+ <h1>Novelty top</h1>
+ <p class="price"> 340</p> ₹
+
+ <p><button>Add to Cart</button></p>
+ </div>
+ </div>
+
+ <div class="column">
+ <div class="card">
+ <img src="yellow.jpg" alt="Janasya" style="border-image-width: 80%">
+ <h1>Flare Dress</h1>
+ <p class="price"> 999</p> ₹
+
+ <p><button>Add to Cart</button></p>
+ </div>
+ </div>
+ <div class="column">
+ <div class="card">
+ <img src="-black-MODEL.jpg" alt="Purvaja" style="border-image-width:
+80%">
+ <h1>Empire Dress</h1>
+ <p class="price"> 540</p> ₹
+
+ <p><button>Add to Cart</button></p>
+ </div>
+ </div>
+ <div class="column">
+ <div class="card">
+ <img src="-maroon-MODEL.jpg" alt="Trends Tower" style="border-imagewidth: 80%">
+ <h1>Pack of 2 Shirts</h1>
+ <p class="price"> 559</p> ₹
+
+ <p><button>Add to Cart</button></p>
+ </div>
+ </div>
+ <div class="column">
+ <div class="card">
+ <img src="-magenta-MODEL.jpg" alt="Keri Perry" style="border-imagewidth: 80%">
+ <h1>V-Neck Top</h1>
+ <p class="price"> 789</p> ₹
+
+ <p><button>Add to Cart</button></p>
+ </div>
+ </div>
+ <div class="column">
+ <div class="card">
+ <img src="sky-blue-MODEL.jpg" alt="Dennislingo Attire"
+style="border-image-width: 80%">
+ <h1>Slim Shirt</h1>
+ <p class="price"> 699</p> ₹
+
+ <p><button>Add to Cart</button></p>
+ </div>
+ </div>
+ <div class="column">
+ <div class="card">
+ <img src="black-M.jpg" alt="Dennislingo Attire" style="border-imagewidth: 80%">
+ <h1>Slim Shirt</h1>
+ <p class="price"> 699</p> ₹
+
+ <p><button>Add to Cart</button></p>
+ </div>
+ </div>
+ <div class="column">
+ <div class="card">
+ <img src="-green-MODEL.jpg" alt="Winered" style="border-image-width:
+80%">
+ <h1>Solid A-line Dress</h1>
+ <p class="price"> 345</p> ₹
+
+ <p><button>Add to Cart</button></p>
+ </div>
+ </div>
+ <div class="column">
+ <div class="card">
+ <img src="blackbalck.jpg" alt="Dennislingo Attire" style="borderimage-width: 80%">
+ <h1>Slim Shirt</h1>
+ <p class="price"> 610</p> ₹
+
+ <p><button>Add to Cart</button></p>
+ </div>
+ </div>
+ <div class="column">
+ <div class="card">
+ <img src="blue-M.jpg" alt="Indibelle" style="border-image-width:
+80%">
+ <h1>Flare Dress</h1>
+ <p class="price"> 529</p> ₹
+
+ <p><button>Add to Cart</button></p>
+ </div>
+ </div>
+ </div>
+ <!-- Page content -->
+ <div class="content">
+
+ </div>
+
+</body>
+</html>
